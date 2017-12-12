@@ -1,0 +1,42 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding: .5rem;
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+header {
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: 1rem;
+    float: right;
+
+}
+
+img {
+    margin: 1rem;
+    align-self: center;
+}
+
+.to-right {
+    float: right;
+}
+
+.cred {
+    font-size: 1rem;
+}

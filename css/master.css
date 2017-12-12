@@ -1,42 +1,47 @@
+
+/*vermelho: #dd0000;*/
+/*cinza: #373737;*/
+/*azul: #1a5772;*/
+
 body {
     font-family: 'Quicksand', sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    color: #373737;
 }
 
 h1 {
-    padding: .5rem;
+    padding-top: .5rem;
     font-size: 3.5rem;
 }
 
-h2 {
-    font-size: 2.5rem;
+h3 {
+    font-size: 2rem;
 }
 header {
-
+    background-color: #373737;
+    color: #fff;
+    border-bottom: 5px solid #dd0000;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+
 }
 
 footer {
-    margin-top: 1rem;
-    float: right;
 
 }
 
 img {
     margin: 1rem;
-    align-self: center;
 }
 
-.to-right {
-    float: right;
+a {
+    text-decoration: none;
 }
-
-.cred {
-    font-size: 1rem;
+.nav-link {
+    color: #1a5772;
+    font-size: 1.5rem;
+}
+.nav-link:hover{
+    border-bottom: 1px solid #dd0000;
+    text-decoration: none;
 }

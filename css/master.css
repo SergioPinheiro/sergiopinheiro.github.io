@@ -8,40 +8,9 @@ body {
     color: #373737;
 }
 
-h1 {
-    padding-top: .5rem;
-    font-size: 3.5rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-header {
-    background-color: #373737;
-    color: #fff;
-    border-bottom: 5px solid #dd0000;
-}
-
-main {
-
-}
-
-footer {
-
-}
-
-img {
-    margin: 1rem;
-}
-
-a {
-    text-decoration: none;
-}
-.nav-link {
-    color: #1a5772;
-    font-size: 1.5rem;
-}
-.nav-link:hover{
-    border-bottom: 1px solid #dd0000;
-    text-decoration: none;
+.cabecalho {
+    color: white;
+    background: url("../img/4877_.jpg");
+    /*background-color: #373737;*/
+    border-bottom: 3px solid #dd0000;
 }

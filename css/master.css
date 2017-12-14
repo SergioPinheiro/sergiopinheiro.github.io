@@ -4,13 +4,36 @@
 /*azul: #1a5772;*/
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Exo', sans-serif;
     color: #373737;
+    font-weight: 400;
+}
+
+.name-title{
+    padding: 1rem 1rem 0 0;
+    margin-bottom: 0;
+}
+
+.role-title {
+    padding: 0 1rem .5rem 0;
 }
 
 .cabecalho {
     color: white;
     background: url("../img/4877_.jpg");
-    /*background-color: #373737;*/
     border-bottom: 3px solid #dd0000;
+}
+
+.levitate {
+    transition: text-shadow .2s;
+}
+
+.levitate:hover {
+    text-shadow: 2px 2px 2px #999;
+    transition: text-shadow .2s;
+}
+
+.nav-item a {
+    font-size: 1.3rem;
+    margin: 0 1rem;
 }

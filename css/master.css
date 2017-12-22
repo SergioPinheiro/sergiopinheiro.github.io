@@ -9,6 +9,10 @@ body {
     font-weight: 400;
 }
 
+h3 {
+    font-size: 1.3rem;
+}
+
 .name-title{
     padding: 1rem 1rem 0 0;
     margin-bottom: 0;
